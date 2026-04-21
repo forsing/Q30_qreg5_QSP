@@ -83,7 +83,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -379,7 +379,7 @@ BEST hparam: d (polinom degree)= 3 | α (ridge): 1.0 | profile: pi8_alt | P(anc=
   d=4  P(anc=0)=0.654775  cos=0.776004  NEXT=(8, 13, 14, 16, 17, 22, 25)
   d=5  P(anc=0)=0.788463  cos=0.771215  NEXT=(4, 9, 12, 15, 20, 21, 23)
 --- glavna predikcija (QSP Chebyshev polinomna regresija P(A)·b) ---
-predikcija NEXT: (18, 20, 21, 23, 24, 28, 32)
+predikcija NEXT: (18, 20, x, y, z, 28, 32)
 """
 
 
